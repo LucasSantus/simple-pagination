@@ -1,6 +1,13 @@
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
-import { FileDown, Filter, MoreHorizontal, Plus, Search } from "lucide-react";
-import { useState } from "react";
+import {
+  FileDown,
+  Filter,
+  Loader2,
+  MoreHorizontal,
+  Plus,
+  Search,
+} from "lucide-react";
+import { Fragment, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Header } from "./components/header";
 import { Pagination } from "./components/pagination";
@@ -41,7 +48,11 @@ export function App() {
   const page = searchParams.get("page") ? Number(searchParams.get("page")) : 1;
   const rowsPerPage = searchParams.get("rows-per-page") ?? "10";
 
-  const { data: tagsResponse, isLoading } = useQuery<TagResponse>({
+  const {
+    data: tagsResponse,
+    isLoading,
+    isFetching,
+  } = useQuery<TagResponse>({
     queryKey: ["get-tags", urlFilter, page, rowsPerPage],
     queryFn: async () => {
       const response = await fetch(
@@ -49,17 +60,18 @@ export function App() {
       );
       const data = await response.json();
 
-      await new Promise((res) => setTimeout(res, 5000));
+      await new Promise((res) => setTimeout(res, 2000));
 
       return data;
     },
     placeholderData: keepPreviousData,
   });
 
-  function handleFilter() {
+  function onHandleSearch() {
     setSearchParams((params) => {
       params.set("page", "1");
-      params.set("filter", filter);
+
+      if (filter !== "") params.set("filter", filter);
 
       return params;
     });
@@ -90,7 +102,7 @@ export function App() {
                 value={filter}
               />
             </Input>
-            <Button onClick={handleFilter}>
+            <Button onClick={onHandleSearch}>
               <Filter className="size-3" />
               Filter
             </Button>
@@ -132,7 +144,14 @@ export function App() {
                 <TableHead></TableHead>
                 <TableHead>Tag</TableHead>
                 <TableHead>Amount of videos</TableHead>
-                <TableHead></TableHead>
+                <TableHead className="flex items-center gap-2 justify-end">
+                  {isFetching && (
+                    <Fragment>
+                      <Loader2 className="size-4 animate-spin" />
+                      <span className="text-zinc-400">Loading...</span>
+                    </Fragment>
+                  )}
+                </TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -142,7 +161,9 @@ export function App() {
                     <TableCell></TableCell>
                     <TableCell>
                       <div className="flex flex-col gap-0.5">
-                        <span className="font-medium">{tag.title}</span>
+                        <span className="font-medium text-zinc-400">
+                          {tag.title}
+                        </span>
                         <span className="text-xs text-zinc-500">{tag.id}</span>
                       </div>
                     </TableCell>
