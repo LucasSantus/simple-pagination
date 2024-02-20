@@ -6,6 +6,7 @@ import {
   MoreHorizontal,
   Plus,
   Search,
+  X,
 } from "lucide-react";
 import { Fragment, useState } from "react";
 import { useSearchParams } from "react-router-dom";
@@ -56,7 +57,7 @@ export function App() {
     queryKey: ["get-tags", urlFilter, page, rowsPerPage],
     queryFn: async () => {
       const response = await fetch(
-        `http://localhost:3333/tags?_page=${page}&_per_page=${rowsPerPage}&title=${urlFilter}`
+        `http://localhost:3333/tags?_page=${page}&_per_page=${rowsPerPage}&title_like=${urlFilter}`
       );
       const data = await response.json();
 
@@ -71,7 +72,17 @@ export function App() {
     setSearchParams((params) => {
       params.set("page", "1");
 
-      if (filter !== "") params.set("filter", filter);
+      params.set("filter", filter);
+
+      return params;
+    });
+  }
+
+  function onHandleCleaningSearch() {
+    setFilter("");
+
+    setSearchParams((params) => {
+      params.set("filter", "");
 
       return params;
     });
@@ -102,10 +113,18 @@ export function App() {
                 value={filter}
               />
             </Input>
+
             <Button onClick={onHandleSearch}>
               <Filter className="size-3" />
               Filter
             </Button>
+
+            {filter !== "" && (
+              <Button onClick={onHandleCleaningSearch}>
+                <X className="size-3" />
+                Reset
+              </Button>
+            )}
           </div>
 
           <Button>

@@ -1,204 +1,694 @@
 {
   "tags": [
-    {"title": "Redis", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39}
+    {
+      "id": "fa72a85a-ba3d-4dd6-9a71-0e75d260b1d1",
+      "title": "Algorithms and Data Structures",
+      "amountOfVideos": 132
+    },
+    {
+      "id": "9be23b47-e01f-4b37-b3dc-9f4cfc6074b0",
+      "title": "Java Programming Basics",
+      "amountOfVideos": 89
+    },
+    {
+      "id": "e8cfe49e-24c1-4fe3-8fd9-3cfa1181f05e",
+      "title": "Python for Data Science",
+      "amountOfVideos": 205
+    },
+    {
+      "id": "81f485df-bf3d-4d70-8d47-0dc79a203689",
+      "title": "Introduction to Algorithms",
+      "amountOfVideos": 301
+    },
+    {
+      "id": "f88d6e2f-7a70-4249-9a9e-71b57b5d7ab5",
+      "title": "Object-Oriented Programming in C++",
+      "amountOfVideos": 174
+    },
+    {
+      "id": "1d1bf1a4-7647-4f3a-bb48-aa923433d079",
+      "title": "Machine Learning Fundamentals",
+      "amountOfVideos": 248
+    },
+    {
+      "id": "bda20d08-5974-4908-87fc-7f457aee0b88",
+      "title": "Advanced Java Concepts",
+      "amountOfVideos": 157
+    },
+    {
+      "id": "5a9ef9f8-ecfc-4f7a-b7b4-7287fc6a7ec9",
+      "title": "C Programming for Beginners",
+      "amountOfVideos": 82
+    },
+    {
+      "id": "3052c5d4-5604-40e5-9c78-9c79c2e45ab4",
+      "title": "Deep Learning Essentials",
+      "amountOfVideos": 183
+    },
+    {
+      "id": "d3c21d9e-20b3-49fb-8e99-1f5825ffde52",
+      "title": "JavaScript Crash Course",
+      "amountOfVideos": 115
+    },
+    {
+      "id": "2967f350-c383-4e47-8615-4a91699c95b7",
+      "title": "Data Structures in Python",
+      "amountOfVideos": 170
+    },
+    {
+      "id": "05625ef7-b0c7-46b4-b2e6-c21e1beee7d1",
+      "title": "Introduction to SQL",
+      "amountOfVideos": 97
+    },
+    {
+      "id": "bc6dc02c-51ae-4a86-b1d7-8b1d75e5ee12",
+      "title": "Web Development Fundamentals",
+      "amountOfVideos": 221
+    },
+    {
+      "id": "a92c0727-4584-4fd7-93b5-3e6c10f4d62c",
+      "title": "Android App Development",
+      "amountOfVideos": 195
+    },
+    {
+      "id": "cc4c8e2a-9d44-4997-a0de-c78c651c4a80",
+      "title": "Introduction to Algorithms and Data Structures",
+      "amountOfVideos": 276
+    },
+    {
+      "id": "4f2f5903-5d39-4d40-bde5-f21763f5cd16",
+      "title": "Java GUI Programming",
+      "amountOfVideos": 143
+    },
+    {
+      "id": "18410a65-8e06-4a14-b14b-4cfdf723ef15",
+      "title": "Python Scripting for Automation",
+      "amountOfVideos": 123
+    },
+    {
+      "id": "504c8d4d-41d0-46b1-b011-9de74f9c32c5",
+      "title": "Introduction to Machine Learning",
+      "amountOfVideos": 192
+    },
+    {
+      "id": "5e6eaa43-2ac2-4050-a8bb-0a719f6fd2fc",
+      "title": "Java EE Web Development",
+      "amountOfVideos": 209
+    },
+    {
+      "id": "b169f225-fd96-44e9-b575-c81f1214f178",
+      "title": "Blockchain Fundamentals",
+      "amountOfVideos": 156
+    },
+    {
+      "id": "a36f831b-98d5-49b0-91a2-e8d476bfe18f",
+      "title": "Intermediate Python Programming",
+      "amountOfVideos": 135
+    },
+    {
+      "id": "73c42cfc-f445-48ec-8995-0a3020d33d0a",
+      "title": "Java Spring Framework Essentials",
+      "amountOfVideos": 187
+    },
+    {
+      "id": "579a8202-bf4a-4a4f-b6f6-26a05e55e90d",
+      "title": "Artificial Intelligence Basics",
+      "amountOfVideos": 224
+    },
+    {
+      "id": "61432a38-dfc2-40ff-8f18-b666318b5f53",
+      "title": "React Native Development",
+      "amountOfVideos": 163
+    },
+    {
+      "id": "8f8329f7-fab8-4e91-90e0-64be6ebf78bb",
+      "title": "Data Analysis with Pandas",
+      "amountOfVideos": 178
+    },
+    {
+      "id": "f1ab63de-0c69-4181-b09c-798b4fd7bb3c",
+      "title": "JavaFX GUI Programming",
+      "amountOfVideos": 154
+    },
+    {
+      "id": "8b82f9e7-7dbd-4d3f-8b64-7cbef45aa087",
+      "title": "Introduction to Kotlin",
+      "amountOfVideos": 92
+    },
+    {
+      "id": "1c6cfc9e-7d11-4f81-8145-ef4fe00f1056",
+      "title": "Data Visualization with Matplotlib",
+      "amountOfVideos": 201
+    },
+    {
+      "id": "d31768b8-0103-46aa-9b99-30fde9a8e3f1",
+      "title": "Java Multithreading",
+      "amountOfVideos": 141
+    },
+    {
+      "id": "dbf8e9c8-17c6-4765-b3c4-37a9c5d87724",
+      "title": "Machine Learning Applications",
+      "amountOfVideos": 236
+    },
+    {
+      "id": "903b642b-5b61-4899-87b5-835107f1d849",
+      "title": "Introduction to React.js",
+      "amountOfVideos": 118
+    },
+    {
+      "id": "52e19295-25c5-44fc-a4e5-65fc4f5f0a12",
+      "title": "C# Programming Basics",
+      "amountOfVideos": 167
+    },
+    {
+      "id": "ebe26e28-2e4d-4828-8599-fd7a34f2dcf0",
+      "title": "Algorithms in C",
+      "amountOfVideos": 198
+    },
+    {
+      "id": "e0e72691-45fd-49cc-bad2-4ac5fca225d5",
+      "title": "Advanced Data Structures",
+      "amountOfVideos": 149
+    },
+    {
+      "id": "fe42de3e-15f6-43e4-85cf-20441f85e77d",
+      "title": "Java Networking Basics",
+      "amountOfVideos": 105
+    },
+    {
+      "id": "c63d3eae-36a1-4ba2-bac0-f81d8b32f002",
+      "title": "Data Analysis with R",
+      "amountOfVideos": 188
+    },
+    {
+      "id": "924c9c17-2c1c-49a1-bbe4-53e776c6e8ee",
+      "title": "Web Development with Node.js",
+      "amountOfVideos": 213
+    },
+    {
+      "id": "3c12a13d-74bb-44a1-b366-cd3a5c86da55",
+      "title": "Python GUI Programming",
+      "amountOfVideos": 128
+    },
+    {
+      "id": "3f149b36-bf22-4d1e-a3d2-52ee6922e97a",
+      "title": "Introduction to Data Science",
+      "amountOfVideos": 179
+    },
+    {
+      "id": "8d8f86fd-70cc-41db-87b1-f4fe3d48c16e",
+      "title": "JavaFX GUI Programming",
+      "amountOfVideos": 195
+    },
+    {
+      "id": "fca2a05e-4505-458b-ae64-e8e7600513f3",
+      "title": "Software Engineering Principles",
+      "amountOfVideos": 201
+    },
+    {
+      "id": "35df169b-2307-4dd4-b869-56c5b5a8d686",
+      "title": "React.js Essentials",
+      "amountOfVideos": 144
+    },
+    {
+      "id": "4f592b92-1d7b-4910-8540-aa6a24d171bc",
+      "title": "Android Development with Kotlin",
+      "amountOfVideos": 154
+    },
+    {
+      "id": "8b9a03c8-70ec-4598-8902-28f0e1c1e870",
+      "title": "JavaFX GUI Programming",
+      "amountOfVideos": 167
+    },
+    {
+      "id": "16d0e845-9d94-488d-bd99-3c788779382f",
+      "title": "Introduction to Data Structures",
+      "amountOfVideos": 183
+    },
+    {
+      "id": "056c41a7-d4c3-40d1-a0f5-bd59b4211e79",
+      "title": "Data Analysis with Python",
+      "amountOfVideos": 190
+    },
+    {
+      "id": "076f6d3e-63d1-4e58-af25-44c8d8f90d53",
+      "title": "JavaFX GUI Programming",
+      "amountOfVideos": 205
+    },
+    {
+      "id": "ecf71e5a-d270-442f-907d-7d71bc26d472",
+      "title": "Introduction to Web Development",
+      "amountOfVideos": 220
+    },
+    {
+      "id": "c05a376f-2748-4f68-83db-c7442d68e366",
+      "title": "Algorithms and Data Structures in C++",
+      "amountOfVideos": 155
+    },
+    {
+      "id": "5d934b19-5e0b-4a90-a892-2c1a863fd13d",
+      "title": "Java Multithreading",
+      "amountOfVideos": 172
+    },
+    {
+      "id": "e36d8a53-fa64-4a3a-802f-c47be6c3a51d",
+      "title": "Machine Learning Techniques",
+      "amountOfVideos": 193
+    },
+    {
+      "id": "ea88aefb-5b64-4d5a-bc0e-d5d60979d773",
+      "title": "Web Development with PHP",
+      "amountOfVideos": 222
+    },
+    {
+      "id": "3174726d-2829-4637-950e-835af66652f7",
+      "title": "Python for Data Analysis",
+      "amountOfVideos": 181
+    },
+    {
+      "id": "fa480de8-7e2d-4bb5-a3ae-d24833d9b1d3",
+      "title": "Algorithms and Data Structures in Python",
+      "amountOfVideos": 189
+    },
+    {
+      "id": "bf120a7c-8d84-4d1c-ba3f-fb44c4b7fcf7",
+      "title": "Introduction to Data Science",
+      "amountOfVideos": 302
+    },
+    {
+      "id": "1e14ed33-c291-403d-9481-52d98d8e2a2a",
+      "title": "Java Programming Basics",
+      "amountOfVideos": 143
+    },
+    {
+      "id": "4f7f7d2e-6e52-4e6d-8d51-28d6d156a007",
+      "title": "Machine Learning Fundamentals",
+      "amountOfVideos": 415
+    },
+    {
+      "id": "67c2797b-d97d-46b1-9076-f49c06f3dd0f",
+      "title": "Web Development Crash Course",
+      "amountOfVideos": 257
+    },
+    {
+      "id": "1e20a267-9623-4f12-87bf-4b833f367a49",
+      "title": "Introduction to Algorithms",
+      "amountOfVideos": 189
+    },
+    {
+      "id": "2fd90778-1d76-4f56-b2a5-57b9a7beebfb",
+      "title": "Python for Data Science",
+      "amountOfVideos": 304
+    },
+    {
+      "id": "3c57b27d-60f7-4d6d-b64d-672692c4a22b",
+      "title": "Machine Learning Basics",
+      "amountOfVideos": 127
+    },
+    {
+      "id": "4e34b1cf-860a-431d-a24a-56d79dd72c67",
+      "title": "Web Development Fundamentals",
+      "amountOfVideos": 251
+    },
+    {
+      "id": "5d6fd841-b6a2-4e09-82bb-91425e1b6a24",
+      "title": "Data Structures in Python",
+      "amountOfVideos": 189
+    },
+    {
+      "id": "63f760e5-ec3b-4993-9b46-52fd2074894f",
+      "title": "Java Programming Basics",
+      "amountOfVideos": 217
+    },
+    {
+      "id": "736d4161-c24a-4933-98ec-79e06e7d9644",
+      "title": "Algorithms and Data Structures",
+      "amountOfVideos": 315
+    },
+    {
+      "id": "8a98b8e7-4083-4759-91db-84f8b1d9441c",
+      "title": "Artificial Intelligence Concepts",
+      "amountOfVideos": 198
+    },
+    {
+      "id": "9c0b7a9d-832f-40f6-8676-65b5d6704a0c",
+      "title": "C++ Programming Basics",
+      "amountOfVideos": 185
+    },
+    {
+      "id": "a42ebc11-c4f2-4f6c-8c02-7a39c8d0f5ab",
+      "title": "Data Analysis with Pandas",
+      "amountOfVideos": 273
+    },
+    {
+      "id": "b63a7685-54d5-4c1d-b11d-892e3e1a20a0",
+      "title": "Introduction to Data Science",
+      "amountOfVideos": 199
+    },
+    {
+      "id": "c8581e1d-8729-4f3c-af08-64bce9c2c423",
+      "title": "JavaScript Basics",
+      "amountOfVideos": 215
+    },
+    {
+      "id": "d35bbdb2-4155-4826-8c3a-48cd26164662",
+      "title": "Deep Learning Fundamentals",
+      "amountOfVideos": 302
+    },
+    {
+      "id": "e4cbcb76-8aaf-4a26-bb42-bf0b6eb2b5bb",
+      "title": "SQL Database Management",
+      "amountOfVideos": 232
+    },
+    {
+      "id": "f1f56a27-1bfb-45e1-89d1-73b2de25e1b9",
+      "title": "Introduction to Computer Science",
+      "amountOfVideos": 178
+    },
+    {
+      "id": "1cdde64b-8e67-43d2-91f7-3ec3ad171b38",
+      "title": "Object-Oriented Programming in Java",
+      "amountOfVideos": 195
+    },
+    {
+      "id": "2a4ad15a-21dc-42b7-82f7-f14b4f4dfb16",
+      "title": "Data Visualization Techniques",
+      "amountOfVideos": 248
+    },
+    {
+      "id": "3d7c5b55-ef5e-4b41-8b68-9f8014f274e4",
+      "title": "Python for Machine Learning",
+      "amountOfVideos": 282
+    },
+    {
+      "id": "4f92baf7-6b36-4fa1-b3f1-5096b88590cb",
+      "title": "Software Engineering Principles",
+      "amountOfVideos": 221
+    },
+    {
+      "id": "5b587c62-656b-45e5-9346-9b8d2eb46ae5",
+      "title": "Java Servlets and JSP",
+      "amountOfVideos": 197
+    },
+    {
+      "id": "678f4a78-68d5-4e16-894a-35228e732018",
+      "title": "Data Mining Techniques",
+      "amountOfVideos": 233
+    },
+    {
+      "id": "7a2dd97f-7bc5-45f0-bbf4-5af4b0eabf68",
+      "title": "Introduction to Natural Language Processing",
+      "amountOfVideos": 286
+    },
+    {
+      "id": "8c962070-7483-4b86-9f8d-83fcf60558d8",
+      "title": "JavaScript Frameworks",
+      "amountOfVideos": 241
+    },
+    {
+      "id": "9fa61b79-b78f-40f7-940a-641029f6be8e",
+      "title": "C# Programming Basics",
+      "amountOfVideos": 213
+    },
+    {
+      "id": "a6cf4c11-4975-4ec8-820e-b8d5e63ac221",
+      "title": "Data Analysis with NumPy",
+      "amountOfVideos": 263
+    },
+    {
+      "id": "b9bcb29f-9bc8-452e-8338-7e19e4cfa2a5",
+      "title": "Introduction to Big Data",
+      "amountOfVideos": 197
+    },
+    {
+      "id": "c2a2a457-d5a2-4428-948d-35e486b7d478",
+      "title": "Machine Learning Applications",
+      "amountOfVideos": 294
+    },
+    {
+      "id": "54bf8e01-ff61-44de-b8eb-0818268f45a1",
+      "title": "Algorithms and Data Structures in Python",
+      "amountOfVideos": 193
+    },
+    {
+      "id": "bea16964-6e3c-4f1b-9ee0-bd0255294d75",
+      "title": "Advanced Data Structures and Algorithms",
+      "amountOfVideos": 142
+    },
+    {
+      "id": "a18d8959-676a-477d-aac3-4eb011bea24d",
+      "title": "Introduction to Data Structures and Algorithms",
+      "amountOfVideos": 239
+    },
+    {
+      "id": "e0a6b8f1-81c2-499b-a4b3-fb5bb6b31b5c",
+      "title": "Data Structures in C++",
+      "amountOfVideos": 175
+    },
+    {
+      "id": "7b66249a-0a24-4d46-8c5d-af3f0c11d25b",
+      "title": "Mastering Data Structures",
+      "amountOfVideos": 212
+    },
+    {
+      "id": "1a3f12e2-c268-4317-a52b-dbd6c3dc9ec5",
+      "title": "Data Structures and Algorithms Bootcamp",
+      "amountOfVideos": 198
+    },
+    {
+      "id": "b88216d8-0fd8-4aef-917f-3654ab92b1a4",
+      "title": "Data Structures for Beginners",
+      "amountOfVideos": 185
+    },
+    {
+      "id": "89cbfe08-787b-45f3-8f8a-7029c0f68e0b",
+      "title": "Data Structures in JavaScript",
+      "amountOfVideos": 225
+    },
+    {
+      "id": "4c1d6dc9-d441-4399-9b33-7cda6957e8d4",
+      "title": "Advanced Algorithms and Data Structures",
+      "amountOfVideos": 201
+    },
+    {
+      "id": "c706daad-8d4c-4a93-ba77-d58cbfe7b08c",
+      "title": "Data Structures and Algorithms Masterclass",
+      "amountOfVideos": 230
+    },
+    {
+      "id": "6ab14b4b-3992-4c92-bc5a-8e7456a0d23c",
+      "title": "Data Structures in Python",
+      "amountOfVideos": 208
+    },
+    {
+      "id": "b6f7cf62-5965-47a7-b00f-5f24d46923d2",
+      "title": "Data Structures and Algorithms in Java",
+      "amountOfVideos": 223
+    },
+    {
+      "id": "e3359265-d60c-4a69-9d5b-d9fc8b60eac6",
+      "title": "Data Structures Interview Preparation",
+      "amountOfVideos": 183
+    },
+    {
+      "id": "fdf4e04a-6df2-4854-8c53-06d135bcf267",
+      "title": "Data Structures Explained",
+      "amountOfVideos": 197
+    },
+    {
+      "id": "d6ffec39-0651-40cb-a4e2-4cfd89d10122",
+      "title": "Data Structures and Algorithms Simplified",
+      "amountOfVideos": 236
+    },
+    {
+      "id": "6c2b3ed6-1b0c-42e1-9ed4-4c8d8794e595",
+      "title": "Data Structures for Interviews",
+      "amountOfVideos": 202
+    },
+    {
+      "id": "db8aa83f-4859-44fc-bc6f-8d58b6bbf65b",
+      "title": "Learning Data Structures and Algorithms",
+      "amountOfVideos": 220
+    },
+    {
+      "id": "8fe973f5-460b-49dc-b14d-1a014832f9d4",
+      "title": "Data Structures in Swift",
+      "amountOfVideos": 189
+    },
+    {
+      "id": "c60a947b-0e91-4b94-93aa-9a23539cf1bb",
+      "title": "Data Structures Tutorial Series",
+      "amountOfVideos": 214
+    },
+    {
+      "id": "94fc305d-58d3-49d3-8728-3a1d1d9e21fb",
+      "title": "Data Structures and Algorithms Practice",
+      "amountOfVideos": 226
+    },
+    {
+      "id": "36df38e6-4c54-489a-a51b-785ed0fb09cf",
+      "title": "Data Structures in Ruby",
+      "amountOfVideos": 221
+    },
+    {
+      "id": "7e9770e6-2ed7-4ad7-985a-e46da0b26a9b",
+      "title": "Data Structures and Algorithms Explained",
+      "amountOfVideos": 195
+    },
+    {
+      "id": "37d3a2a2-60e1-4059-817d-c4d3d3e7b12e",
+      "title": "Data Structures Mastery",
+      "amountOfVideos": 228
+    },
+    {
+      "id": "d06b4b22-86b3-4c25-8397-ae836f163254",
+      "title": "Data Structures in C#",
+      "amountOfVideos": 204
+    },
+    {
+      "id": "cc1e1050-512f-4a1b-aeb7-478476c8e768",
+      "title": "Understanding Data Structures",
+      "amountOfVideos": 233
+    },
+    {
+      "id": "dd72658b-dcc3-438d-8a6b-e2078bdc3f0d",
+      "title": "Data Structures Interview Questions",
+      "amountOfVideos": 187
+    },
+    {
+      "id": "c6325013-ee93-403b-b2b4-5cfab0f6633b",
+      "title": "Data Structures Crash Course",
+      "amountOfVideos": 191
+    },
+    {
+      "id": "af036c6e-ff68-485f-91b5-e226a1b7795a",
+      "title": "Data Structures and Algorithms for Beginners",
+      "amountOfVideos": 231
+    },
+    {
+      "id": "9b2f5c5e-3443-46ed-8537-4ed61d3bca0b",
+      "title": "Data Structures Interview Preparation Course",
+      "amountOfVideos": 218
+    },
+    {
+      "id": "cf3f8d60-d1c2-46bb-afe8-8d02cd2ab167",
+      "title": "Data Structures and Algorithms for Coding Interviews",
+      "amountOfVideos": 203
+    },
+    {
+      "id": "f1eb2063-bc3e-42f3-b5a2-1e45a97d0e9d",
+      "title": "Data Structures and Algorithms - The Complete Guide",
+      "amountOfVideos": 211
+    },
+    {
+      "id": "8967e39a-daa3-4b29-9317-9a5d48cb1539",
+      "title": "Data Structures Deep Dive",
+      "amountOfVideos": 196
+    },
+    {
+      "id": "889b138d-7e9e-4ba7-bc0e-98b63a9b99a0",
+      "title": "Mastering Algorithms and Data Structures",
+      "amountOfVideos": 234
+    },
+    {
+      "id": "6e50db71-af04-4f5d-b3c1-4dca2b8da8f4",
+      "title": "Data Structures and Algorithms Course",
+      "amountOfVideos": 227
+    },
+    {
+      "id": "2c4ab18e-3d5f-45cc-80d0-c13f4f19a38d",
+      "title": "Data Structures and Algorithms Explained Clearly",
+      "amountOfVideos": 219
+    },
+    {
+      "id": "1e1e127e-7a0d-4dc5-a203-75c9a8f69d0b",
+      "title": "Data Structures and Algorithms Tutorial",
+      "amountOfVideos": 232
+    },
+    {
+      "id": "7c41491d-3bd9-43cb-a20b-f99e35b7c6a4",
+      "title": "Data Structures in Practice",
+      "amountOfVideos": 199
+    },
+    {
+      "id": "ff6d7d4d-2905-4d9e-9ff6-c03b75dc2866",
+      "title": "Data Structures and Algorithms in Swift",
+      "amountOfVideos": 235
+    },
+    {
+      "id": "af7a7be5-177b-4d0c-a60d-b04f7e7ee860",
+      "title": "Data Structures and Algorithms for Interviews",
+      "amountOfVideos": 222
+    },
+    {
+      "id": "2aef4dd8-7324-4561-8748-eb9cbcfb1e48",
+      "title": "Data Structures and Algorithms in Ruby",
+      "amountOfVideos": 207
+    },
+    {
+      "id": "345f356a-2d3a-4e62-b2e5-7e8cf4d28df5",
+      "title": "Data Structures and Algorithms in Practice",
+      "amountOfVideos": 229
+    },
+    {
+      "id": "a47f5367-df90-4cc3-8cd4-d9b5259a5f2d",
+      "title": "Data Structures and Algorithms Basics",
+      "amountOfVideos": 213
+    },
+    {
+      "id": "c47b1b7f-0321-4c9e-b0a5-4db3e67d2f32",
+      "title": "Data Structures and Algorithms in Python",
+      "amountOfVideos": 224
+    },
+    {
+      "id": "9f365eb0-f448-4c5b-8f49-50d5d5073eaf",
+      "title": "Data Structures and Algorithms Simplified",
+      "amountOfVideos": 200
+    },
+    {
+      "id": "f222ed1b-dc58-47f0-986d-bf4d413aa0b3",
+      "title": "Data Structures and Algorithms Made Easy",
+      "amountOfVideos": 217
+    },
+    {
+      "id": "298b1b90-b078-4263-a5b3-8aaedc00bcb9",
+      "title": "Data Structures in Action",
+      "amountOfVideos": 205
+    },
+    {
+      "id": "8b4d469a-71ab-44a5-9d2e-8fd80d59e001",
+      "title": "Data Structures Explained Clearly",
+      "amountOfVideos": 215
+    },
+    {
+      "id": "875bd7d8-cb1c-42cb-812d-7cf2899c79cc",
+      "title": "Data Structures and Algorithms Simplified Series",
+      "amountOfVideos": 206
+    },
+    {
+      "id": "4b5f9ff0-05a2-49c1-b0c2-bba83d64776e",
+      "title": "Data Structures and Algorithms for Interviews",
+      "amountOfVideos": 209
+    },
+    {
+      "id": "c9e7a802-5073-4d10-94a4-00aa12129e15",
+      "title": "Data Structures and Algorithms in Swift",
+      "amountOfVideos": 216
+    },
+    {
+      "id": "ef33f8e2-2aa6-4d21-bd86-d4ed5f3d5d11",
+      "title": "Data Structures and Algorithms - Deep Dive",
+      "amountOfVideos": 210
+    },
+    {
+      "id": "e4f1f3a3-541d-4a9c-8f4e-0898756a71d1",
+      "title": "Data Structures and Algorithms Masterclass",
+      "amountOfVideos": 190
+    },
+    {
+      "id": "bb1e700f-d6ec-4b39-8d30-e7a6019f0f4e",
+      "title": "Data Structures and Algorithms Bootcamp",
+      "amountOfVideos": 194
+    }
   ]
 }
