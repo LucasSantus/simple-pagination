@@ -11,12 +11,12 @@ import {
 } from "lucide-react";
 import { Fragment, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { CreateTagForm } from "./components/create-tag-form";
-import { Header } from "./components/header";
-import { Pagination } from "./components/pagination";
-import { Tabs } from "./components/tabs";
-import { Button } from "./components/ui/button";
-import { Control, Input } from "./components/ui/input";
+import { CreateTagForm } from "../../components/create-tag-form";
+import { Header } from "../../components/header";
+import { Pagination } from "../../components/pagination";
+import { Tabs } from "../../components/tabs";
+import { Button } from "../../components/ui/button";
+import { Control, Input } from "../../components/ui/input";
 import {
   Table,
   TableBody,
@@ -24,26 +24,10 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./components/ui/table";
+} from "../../components/ui/table";
+import { TagResponse } from "../../types/tags";
 
-export interface TagResponse {
-  first: number;
-  prev: number | null;
-  next: number;
-  last: number;
-  pages: number;
-  items: number;
-  data: Tag[];
-}
-
-export interface Tag {
-  id: string;
-  title: string;
-  amountOfVideos: number;
-  slug: string;
-}
-
-export function App() {
+export function HomePage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const urlFilter = searchParams.get("filter") ?? "";
 

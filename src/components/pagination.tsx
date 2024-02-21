@@ -69,6 +69,7 @@ export function Pagination({
   function selectRowsPerPage(value: string) {
     setSearchParams((params) => {
       params.set("rows-per-page", String(value));
+      params.set("page", String(1));
 
       return params;
     });
@@ -79,6 +80,7 @@ export function Pagination({
       <span>
         Showing {showingItems} of {items} items
       </span>
+
       <div className="flex items-center gap-8">
         <div className="flex items-center gap-2">
           <span>Rows per page</span>
