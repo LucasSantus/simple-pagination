@@ -4,7 +4,8 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { Check, Loader2, Plus, X } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { getSlugFromString } from "../utils/getSlugFromString";
+import useTags from "../hooks/use-tags";
+import { getSlugFromString } from "../utils/get-slug-from-string";
 import { CreateTagSchema, createTagSchema } from "../validation/tag";
 import { Button, buttonVariants } from "./ui/button";
 
@@ -12,6 +13,7 @@ export function CreateTagForm() {
   const [open, setOpen] = useState(false);
 
   const queryClient = useQueryClient();
+  const { createTag: createNewTag } = useTags();
 
   const {
     register,
@@ -28,14 +30,7 @@ export function CreateTagForm() {
     mutationFn: async ({ title }: CreateTagSchema) => {
       await new Promise((resolve) => setTimeout(resolve, 2000));
 
-      await fetch("http://localhost:3333/tags", {
-        method: "POST",
-        body: JSON.stringify({
-          title,
-          slug,
-          amountOfVideos: 0,
-        }),
-      });
+      await createNewTag({ title, slug, amountOfVideos: 0 });
     },
     onSuccess: () => {
       queryClient.invalidateQueries({

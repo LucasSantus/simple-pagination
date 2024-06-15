@@ -3,7 +3,7 @@ import {
   FileDown,
   Filter,
   Loader2,
-  MoreHorizontal,
+  MoreHorizontalIcon,
   Search,
   X,
 } from "lucide-react";
@@ -23,28 +23,30 @@ import {
   TableHeader,
   TableRow,
 } from "../../components/ui/table";
+import useTags from "../../hooks/use-tags";
 import { TagResponse } from "../../types/tags";
 
 export function HomePage() {
   const [searchParams, setSearchParams] = useSearchParams();
-  const urlFilter = searchParams.get("filter") ?? "";
+  const search = searchParams.get("filter") ?? "";
 
-  const [filter, setFilter] = useState(urlFilter);
+  const { paginatedTags } = useTags();
+
+  const [filter, setFilter] = useState(search);
 
   const page = searchParams.get("page") ? Number(searchParams.get("page")) : 1;
-  const rowsPerPage = searchParams.get("rows-per-page") ?? "10";
+  const rowsPerPage = searchParams.get("rows-per-page")
+    ? Number(searchParams.get("rows-per-page"))
+    : 10;
 
   const {
     data: tagsResponse,
     isLoading,
     isFetching,
   } = useQuery<TagResponse>({
-    queryKey: ["get-tags", urlFilter, page, rowsPerPage],
+    queryKey: ["get-tags", search, page, rowsPerPage],
     queryFn: async () => {
-      const response = await fetch(
-        `http://localhost:3333/tags?_page=${page}&_per_page=${rowsPerPage}&title_like=${urlFilter}`
-      );
-      const data = await response.json();
+      const data = await paginatedTags({ page, rowsPerPage, search });
 
       await new Promise((res) => setTimeout(res, 2000));
 
@@ -176,7 +178,7 @@ export function HomePage() {
                     </TableCell>
                     <TableCell className="text-right">
                       <Button size="icon">
-                        <MoreHorizontal className="size-4" />
+                        <MoreHorizontalIcon className="size-4" />
                       </Button>
                     </TableCell>
                   </TableRow>

@@ -1,7 +1,7 @@
 export interface TagResponse {
   first: number;
   prev: number | null;
-  next: number;
+  next: number | null;
   last: number;
   pages: number;
   items: number;
