@@ -145,7 +145,7 @@ export function HomePage() {
           <Table>
             <TableHeader>
               <TableRow>
-                <TableHead></TableHead>
+                <TableHead>Id</TableHead>
                 <TableHead>Tag</TableHead>
                 <TableHead>Amount of videos</TableHead>
                 <TableHead className="flex items-center gap-2 justify-end">
@@ -162,7 +162,9 @@ export function HomePage() {
               {tagsResponse?.data.map((tag) => {
                 return (
                   <TableRow key={tag.id}>
-                    <TableCell></TableCell>
+                    <TableCell>
+                      <span className="text-xs text-zinc-500">{tag.id}</span>
+                    </TableCell>
                     <TableCell>
                       <div className="flex flex-col gap-0.5">
                         <span className="font-medium text-zinc-400">
