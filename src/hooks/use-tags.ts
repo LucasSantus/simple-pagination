@@ -1,6 +1,7 @@
 import { faker } from "@faker-js/faker";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useLocalStorage } from "usehooks-ts"; // Supondo que você está usando a biblioteca 'usehooks-ts'
+import { TAGS_KEY_LOCAL_STORAGE } from "../constants";
 import { Tag, TagResponse } from "../types/tags";
 import { generateTags } from "../utils/generate-tags";
 
@@ -22,13 +23,26 @@ interface UseTagsResponse {
 }
 
 export default function useTags(): UseTagsResponse {
-  const [tags, setTags] = useLocalStorage<Tag[]>("tags", []);
+  const [tagsOnStorage, setTagsOnStorage] = useLocalStorage<Tag[]>(
+    TAGS_KEY_LOCAL_STORAGE,
+    []
+  );
+
+  const [tags, setTags] = useState<Tag[]>(() => {
+    if (tagsOnStorage.length === 0) {
+      const generatedTags = generateTags(100);
+
+      return generatedTags;
+    }
+
+    return tagsOnStorage;
+  });
 
   useEffect(() => {
-    if (!tags.length) {
-      setTags(generateTags(100));
+    if (tagsOnStorage.length === 0) {
+      setTagsOnStorage(tags);
     }
-  }, [setTags, tags.length]);
+  }, [setTagsOnStorage, tags, tagsOnStorage.length]);
 
   function paginatedTags({
     page,
@@ -86,6 +100,7 @@ export default function useTags(): UseTagsResponse {
     };
 
     setTags((currentValue) => [...currentValue, newTag]);
+    setTagsOnStorage((currentValue) => [...currentValue, newTag]);
   }
 
   return {

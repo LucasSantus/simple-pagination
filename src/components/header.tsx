@@ -1,7 +1,7 @@
 import { ChevronDown } from "lucide-react";
 
-import nivoLogo from "../assets/logo-nivo.svg";
 import { Badge } from "./ui/badge";
+import nivoLogo from "/logo.svg";
 
 export function Header() {
   return (
